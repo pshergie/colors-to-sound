@@ -3,12 +3,17 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "build": "rm -rf docs && mkdir -p docs/js docs/css && html-minifier-terser --collapse-whitespace --remove-comments index.html -o docs/index.html && cleancss css/style.css -o docs/css/style.css && for f in js/*.js; do terser $f --module --compress --mangle -o docs/$f; done",
+    "start": "browser-sync start --server --files 'js/*.js, css/*.css, index.html' --port 8080 --open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "http-server": "^14.1.1"
+    "browser-sync": "^3.0.4",
+    "clean-css-cli": "^5.6.3",
+    "html-minifier-terser": "^7.2.0",
+    "terser": "^5.46.0"
   }
 }

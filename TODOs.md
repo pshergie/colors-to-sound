@@ -1,2 +1,4 @@
+- music should match the vibes of a picture
 - deeper music configuration
+- better sounding instruments
 - color blends (hue, saturation, etc)

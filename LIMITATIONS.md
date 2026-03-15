@@ -1,0 +1,1 @@
+- using samples: good sound quality but a user needs to loads hundred megabytes of samples if not gigabytes
