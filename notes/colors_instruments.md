@@ -1,0 +1,6 @@
+ - Orange — DuoSynth: two slightly detuned triangle voices with vibrato, noticeably warmer/thicker than before
+ - Green — PluckSynth: genuine Karplus-Strong string algorithm, sounds like a harp
+ - Blue — added a 700Hz low-pass filter before the chorus/reverb chain, pushes it into underwater territory
+ - Purple — FMSynth with harmonicity 3 + triangle modulator: bell-like shimmer on every note, fits the spiritual maj7 mood
+ - Brown — AMSynth for the horn melody + MembraneSynth physical drum model kicking on every beat, two independent sequences running in parallel
+ - Black — FMSynth with extreme modulationIndex (28) and a non-integer harmonicity (5.1): inharmonic, metallic, genuinely unsettling
