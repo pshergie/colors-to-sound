@@ -1,0 +1,2 @@
+- deeper music configuration
+- color blends (hue, saturation, etc)
